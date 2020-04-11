@@ -1,100 +1,114 @@
 body {
-    margin: 0;
-    padding: 3em 0;
-    width:100%;
-    background-color: #062863;
-    background-image: url(img/image1.png), url(img/image2.png), url(img/image3.png), url(img/image4.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 15%, 15%, 15%, 15%;
-    background-position: left -1% top -14%, right -8.5% top -1%, left -5% bottom -10%, right -6.3% bottom -5%;
-    font-family: serif;
+  margin: 0;
+  padding: 3em 0;
+  width: 100%;
+  background-color: #062863;
+  background-image: url(img/image1.png), url(img/image2.png), url(img/image3.png), url(img/image4.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 15%, 15%, 15%, 15%;
+  background-position: left -1% top -14%, right -8.5% top -1%, left -5% bottom -10%, right -6.3% bottom -5%;
+  font-family: serif;
 }
 
 .logo {
-    text-align: center;
-    margin-bottom: 3em;
+  text-align: center;
+  margin-bottom: 3em;
 }
 
 form {
-    background-color: white;
-    padding: 2.5rem 2.5rem 3rem;
-    margin: auto;
-    width: 23rem;
-    height: 85%;
-    border-radius: 22px 22px 22px 0;
+  background-color: white;
+  padding: 2.5rem 2.5rem 3rem;
+  margin: auto;
+  width: 23rem;
+  height: 85%;
+  border-radius: 22px 22px 22px 0;
 }
+
 form h1 {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.2em;
-    color: #083e9e;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.3rem;
-    
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+  color: #083e9e;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 form p {
-    color: #4a5568;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0
+  color: #4a5568;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0
 }
 
 .form-content {
-    padding: 2rem 0 0;
+  padding: 2rem 0 0;
 }
 
 .form-content div {
-    margin-bottom: 2em;
-    margin-top: 0.5rem;
+  margin-bottom: 2em;
+  margin-top: 0.5rem;
 }
 
 input, select {
-    margin: 9px auto auto;
-    width: 90%;
-    padding: 1.14em;
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    background-color: #edf2f7;
-    font-size: 100%;
+  margin: 9px auto auto;
+  width: 90%;
+  padding: 1.14em;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #edf2f7;
+  font-size: 100%;
 }
 
 label {
-    color: #4a5568;
-    font-size: 0.75rem;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
-    font-family: sans-serif;
+  color: #4a5568;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  font-family: sans-serif;
 }
+
 select {
-    width: 100%;
-    border-radius: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 button {
-    background-color: rgb(8, 62, 158);
-    color: white;
-    border: none;
-    width: 100%;
-    padding: 1.6rem 1.6rem 1.2rem;
-    border-radius: 12px 12px 12px 0;
-    margin-bottom:0;
-    font-size: 89%;
-    font-weight:bold;
+  background-color: rgb(8, 62, 158);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 1.6rem 1.6rem 1.2rem;
+  border-radius: 12px 12px 12px 0;
+  margin-bottom: 0;
+  font-size: 89%;
+  font-weight: bold;
 }
 
 .footer {
-    text-align: center;
-    margin-top: 2em;
-    font-size: 100%;
-
+  text-align: center;
+  margin-top: 2em;
+  font-size: 100%;
 }
 
 .footer a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+@media(max-width:400px) {
+  form {
+    width: 86%;
+    padding: 0.5rem 0.7rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  input {
+    width: 87%;
+  }
 }
