@@ -95,6 +95,7 @@ button {
 }
 
 .footer a {
+<<<<<<< HEAD
   text-decoration: none;
   color: white;
 }
@@ -112,3 +113,31 @@ button {
     width: 87%;
   }
 }
+=======
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:620px){
+body {
+    margin: 0;
+    padding: 3em 1.5em;
+    width:100%;
+    background-color: #062863;
+    background-image: url(img/image1.png), url(img/image2.png), url(img/image3.png), url(img/image4.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left 1% top 2%, right -8.5% top -1%, left -5% bottom -10%, right -6.3% bottom -5%;
+    font-family: serif;
+}
+
+form {
+    background-color: white;
+    padding: 2.5rem 2.5rem 3rem;
+    margin: auto;
+    width: 18rem;
+    height: 85%;
+    border-radius: 22px 22px 22px 0;
+}
+}
+>>>>>>> cc287f7a49918d6e7c0ca2501d3088cb76be2a85
